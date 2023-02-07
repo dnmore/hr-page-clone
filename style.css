@@ -1,0 +1,466 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Familjen Grotesk", sans-serif;
+  font-size: 1rem;
+  background-color: #ffffff;
+}
+
+nav {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+nav img {
+  height: 3rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin: 0.6rem;
+  padding: 0.6rem;
+}
+
+nav a {
+  text-decoration: none;
+  font: inherit;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: bolder;
+  color: #053b85;
+  padding: 0.3rem 0;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #053b85;
+}
+
+.logo a:hover {
+  border: transparent;
+}
+
+#highlighted {
+  text-decoration: none;
+  border-bottom: 2px solid #e3e309;
+}
+
+#highlighted:hover {
+  border-bottom: 2px solid #053b85;
+  color: #114895;
+}
+
+.nav-links a {
+  color: #114895;
+  font-weight: lighter;
+}
+
+.nav-links img {
+  height: 1.2rem;
+}
+
+.btn {
+  border: 2px solid #d90b3b;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+.btn:hover {
+  border: 2px solid #e62b57;
+}
+
+.btn a {
+  color: #d90b3b;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.btn a:hover {
+  color: #e62b57;
+  text-decoration: none;
+  border: transparent;
+}
+
+#donate {
+  background-color: #d90b3b;
+}
+
+#donate:hover {
+  background-color: #e62b57;
+}
+
+#donate a {
+  color: #ffffff;
+}
+
+#logo-intro {
+  background-color: #114895;
+  width: 100%;
+}
+
+.logo-container {
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 3.7rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+  line-height: normal;
+}
+
+.logo-container a {
+  font: inherit;
+  color: #e9b61d;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.logo-container a:hover {
+  border-bottom: 2px solid #e9b61d;
+}
+
+.logo-container h1 {
+  font: inherit;
+  font-size: 3.7rem;
+  padding: 1.8rem 0;
+  font-weight: bolder;
+}
+
+.main {
+  width: 100%;
+}
+
+.blue-logo {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.red-logo {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 1.8rem;
+}
+
+#main p {
+  font: inherit;
+  font-size: 1.2rem;
+  line-height: 2;
+  padding: 0.6rem;
+}
+
+#main a {
+  color: #114895;
+}
+
+#main a:hover {
+  color: #114895;
+}
+
+#hero {
+  background-color: #e6eeee;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  padding: 3rem;
+}
+
+.yellow-card {
+  background: linear-gradient(0deg, #e3e309, #e3c209);
+  width: 100%;
+  max-width: 60%;
+  text-align: center;
+}
+
+.yellow-card h2 {
+  font: inherit;
+  font-size: 3rem;
+  font-weight: 900;
+  padding-top: 12.5rem;
+}
+
+.yellow-card button {
+  background-color: #d90b3b;
+  border: 2px solid #d90b3b;
+  padding: 1.2rem 1.8rem;
+  color: #ffffff;
+  font: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1.8rem;
+  font-weight: bolder;
+}
+
+.yellow-card button:hover {
+  background-color: #e62b57;
+}
+
+.img-card {
+  width: 100%;
+  max-width: 30%;
+  margin-left: 1.8rem;
+  background-color: #fcffff;
+}
+
+.img-card img {
+  max-width: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-details {
+  margin: 1.5rem;
+  text-align: center;
+}
+
+.card-details h2 {
+  margin-bottom: 0.9rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  line-height: 1;
+}
+
+.card-details p {
+  line-height: 1.5;
+}
+
+.card-details button {
+  border: 2px solid #d90b3b;
+  padding: 1.2rem 1.8rem;
+  color: #d90b3b;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1.8rem;
+  font-weight: bolder;
+}
+
+.card-details button:hover {
+  color: #e62b57;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.8rem;
+}
+
+#footer-container {
+  width: 90%;
+  display: flex;
+  margin: 5rem auto;
+}
+
+#sidebar {
+  margin: 0 2.5rem;
+}
+
+#sidebar li {
+  list-style: none;
+  padding-bottom: 0.9rem;
+}
+
+.site-map a {
+  font: inherit;
+  color: #053b85;
+  font-size: 1rem;
+  font-weight: bolder;
+  text-decoration: none;
+  line-height: 2;
+}
+
+.site-map a:hover {
+  color: #215cae;
+}
+
+.site-map p {
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #434445;
+}
+
+.policies ul {
+  display: flex;
+}
+
+.policies li {
+  margin-right: 0.9rem;
+}
+
+.policies a {
+  text-decoration: none;
+  border-bottom: 1px solid #215cae;
+  color: #215cae;
+  font-size: 0.8rem;
+}
+
+.policies a:hover {
+  border-bottom: 1px solid #698cbe;
+  color: #698cbe;
+}
+
+.policies p {
+  color: #58595a;
+  font-size: 0.8rem;
+}
+
+hr {
+  border: 0.3px solid #ccced2;
+}
+
+.sign-up {
+  padding-left: 4.3rem;
+}
+
+.sign-up h2 {
+  font: inherit;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-bottom: 0.9rem;
+  color: #282829;
+}
+
+.sign-up ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.sign-up li {
+  margin-right: 1.5rem;
+}
+
+.sign-up label {
+  color: #282829;
+  font-size: 0.9rem;
+}
+
+.sign-up input {
+  display: block;
+  margin-top: 1.2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: transparent;
+  border-bottom: 2px solid #1e5aae;
+}
+
+input:focus {
+  outline-style: none;
+  background-color: #dcdfe4;
+}
+
+.sign-up button {
+  border: 2px solid #053b85;
+  background-color: #053b85;
+  padding: 1.2rem 1.8rem;
+  color: #dfe2e7;
+  font-weight: bolder;
+}
+
+.sign-up button:hover {
+  border: 2px solid #698cbe;
+  background-color: #698cbe;
+}
+
+.sign-up p {
+  margin: 1.2rem 0;
+  font-style: italic;
+}
+
+.icons ul {
+  display: flex;
+  width: 90%;
+}
+
+.icons img {
+  height: 2.5rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 48rem) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-links li {
+    margin: 1.5rem;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .yellow-card {
+    width: 100%;
+    max-width: 50rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .img-card {
+    width: 100%;
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+
+  .img-card img {
+    width: 100%;
+    max-width: 50rem;
+  }
+
+  .yellow-card h2 {
+    padding-top: 3rem;
+  }
+
+  .yellow-card button {
+    margin-bottom: 0.6rem;
+  }
+
+  #footer-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .form ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .form li {
+    margin-top: 2rem;
+  }
+  .sign-up input {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    margin: 0;
+  }
+
+  .form button {
+    margin-top: 1.2rem;
+  }
+
+  .icons {
+    margin-bottom: 1.8rem;
+  }
+
+  .site-map {
+    margin-top: 1.8rem;
+  }
+}
