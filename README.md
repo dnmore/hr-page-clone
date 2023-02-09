@@ -17,6 +17,7 @@ Practice
 * Centering divs horizontally and vertically
 * Cards
 * Form
+* Responsive
 
 ## License
 MIT
